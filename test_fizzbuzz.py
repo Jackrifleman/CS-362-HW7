@@ -18,7 +18,9 @@ class UnitTest(unittest.TestCase):
         testNumb = fizzbuzz.parseNumb(10);
         self.assertEqual(testNumb,"Buzz");
 
-    
+    def test_multiple_threefive(self):
+        testNumb = fizzbuzz.parseNumb(15);
+        self.assertEqual(testNumb,"FizzBuzz");    
 
 
 if (__name__ == '__main__'):
