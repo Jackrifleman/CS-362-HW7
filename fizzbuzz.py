@@ -5,3 +5,5 @@
 def parseNumb(numb):
     if (numb % 3 != 0 and numb % 5 != 0):
         return str(numb);
+    elif (numb % 3 == 0 and numb % 5 != 0):
+        return "Fizz";
