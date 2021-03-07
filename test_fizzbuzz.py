@@ -10,6 +10,10 @@ class UnitTest(unittest.TestCase):
         testNumb = fizzbuzz.parseNumb(4);
         self.assertEqual(testNumb,"4");
 
+    def test_multiple_three(self):
+        testNumb = fizzbuzz.parseNumb(6);
+        self.assertEqual(testNumb,"Fizz");
+
     
 
 
