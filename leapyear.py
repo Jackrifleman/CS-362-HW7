@@ -8,5 +8,7 @@ def parseYear(year):
         leapyear = 1;
     elif (year % 4 == 0 and year % 100 == 0):
         leapyear = 0;
+        if (year % 400 == 0):
+            leapyear = 1;
         
     return leapyear;
