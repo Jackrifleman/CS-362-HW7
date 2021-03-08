@@ -10,7 +10,7 @@ class UnitTest(unittest.TestCase):
         testNumb = leapyear.parseYear(4);
         self.assertEqual(testNumb,1);
     def test_modulo_hundred(self):
-        testNumb = leapyear.parseYear(104);
+        testNumb = leapyear.parseYear(200);
         self.assertEqual(testNumb,0);
 
 
